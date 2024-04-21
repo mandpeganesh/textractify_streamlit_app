@@ -4,12 +4,6 @@ import io
 import json
 from PIL import Image
 
-# # Page Title and Description
-# st.set_page_config(page_title="Textractify: Extract Text from Images", layout="wide")
-# st.title(":clipboard: Textractify: Extract Text from Images")
-# # st.image("textractify_logo.png", use_column_width=True)
-# st.write("Upload an image and convert it to text using AWS Textract")
-
 # Function to perform OCR using AWS Textract
 def image_to_text(image_bytes):
     # Opening JSON file

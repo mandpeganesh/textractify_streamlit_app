@@ -10,7 +10,7 @@ def image_to_text(image_bytes):
     with open('config.json') as config_file:
         config_data = json.load(config_file)
 
-     aws_secret_key = st.secrets["aws_secret_key"]
+    aws_secret_key = st.secrets["aws_secret_key"]
     aws_access_key = st.secrets["aws_access_key"]
 
     # Initialize AWS Textract client
